@@ -1,10 +1,8 @@
-import { Room } from "./Room";
-
 
 export default function Page() {
   return (
-    <div>
-      <h1>Figma clone</h1>
-    </div>
+
+      <h1 className="text-5xl text-white">Figma clone</h1>
+  
   );
 }
