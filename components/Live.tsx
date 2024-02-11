@@ -125,9 +125,9 @@ const Live = () => {
         onPointerLeave={handlePointerLeave} 
         onPointerUp={handlePointerUp}
         onPointerDown={handlePointerDown}
-        className="h-[100vh] w-full flex justify-center text-center"
+        className="h-[100vh] w-full flex justify-center items-center text-center"
     >
-        <h1 className="text-2xl text-white">Figma clone</h1>
+        <canvas />
         {reaction.map((r)=>(
             <FlyingReaction 
                 key={r.timestamp.toString()}
