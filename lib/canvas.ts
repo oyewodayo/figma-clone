@@ -275,6 +275,7 @@ export const handleCanvasSelectionCreated = ({
   options,
   isEditingRef,
   setElementAttributes,
+
 }: CanvasSelectionCreated) => {
   // if user is editing manually, return
   if (isEditingRef.current) return;
